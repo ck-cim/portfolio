@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Cleche Kikounou Portfolio</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<img src="ck1.jpg" alt="Cleche Kikounou" class="profile-pic"/>
+			<h1>
+				Hi, I am Cleche Kikounou
+			</h1>
+			
+			<p>
+				Web Developer | Writer | Creative Thinker
+			</p>
+			<button id="toggle-theme">Toggle Dark Mode</button>
+		</div>
+	</header>
+	
+	<nav>
+		<ul>
+			<li>
+				<a href="#about">About</a>
+			</li>
+			<li>
+				<a href="#projects">Projects</a>
+			</li>
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<section id="about" class="section">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>I am a passionate web developer with a focus on building
+			clean, responsive websites using HTML, CSS, and JavaScript. 
+			I love turning ideas into reality on the web.</p>
+		</div>
+	</section>
+	
+	<section id="projects" class="section">
+		<div class="container">
+			<h2>Projects</h2>
+			<div class="projects-grid">
+				<div class="project-card">
+					<h3>My First Website</h3>
+					<p>A simple personal page built using
+					HTML and CSS.</p>
+				</div>
+				<div class="project-card">
+					<h3>To-do List App</h3>
+					<p>A JavaScript-powered productivity too.</p>
+				</div>
+				<div class="project-card">
+					<h3>Weather App</h3>
+					<p>Uses external API to show current weather by location</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact" class="section">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<form id="contact-form">
+				<input type="text" placeholder="Your Name" required/>
+				<input type="email" placeholder="Your Email" required/>
+				<textarea placeholder="Your Message" required?></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+		</div>
+	</section>
+	
+	<footer>
+		<p>&copy; 2025 Cleche Kikounou. All rights reserved.</p>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
+</html>
