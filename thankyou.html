@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Thank you</title>
+	
+	<style>
+		body {
+		margin: 0;
+		font-family: 'segoe UI', sans-serif;
+		background: linear-gradient(135deg, #0077cc, #00bfff);
+		color: white;
+		display: flex;
+		align-items: center;
+		height: 100vh;
+		text-align: center;
+		padding: 20px;
+		}
+		
+		.thank-you-box {
+		background: rgba(255, 255, 255, 0.1);
+		padding: 40px;
+		border-radius: 16px;
+		box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+		width: 100%;
+		animation: fadeIn is ease-out forwards;
+		}
+		
+		h1 {
+			font-size: 2.5rem;
+			margin-bottom: 20px;
+		}
+		
+		p {
+			font-size: 1.2rem;
+		}
+		
+		a {
+			display: inline-block;
+			margin-top: 30px;
+			padding: 12px 24px;
+			background: white;
+			color: #0077cc;
+			text-decoration: none;
+			font-decoration: none;
+			font-weight: bold;
+			border-radius: 8px;
+			transition: background 0.3s
+		ease;
+		}
+		
+		a:hover {
+			background: #f0f0f0;
+		}
+		
+		@keyframes fadeIn {
+			from { opacity: 0; transform: translateY(20px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="thank-you-box">
+		<h1>Thank You!</h1>
+		<p>Your message has been sent successfully. <br>I'll get back to you as soon as possible.</p>
+		<a href="index.html">Back to Home</a>
+	</div>
+</body>
+</html>
